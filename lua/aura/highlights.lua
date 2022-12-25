@@ -122,7 +122,7 @@ function M.groups(palette)
     TSMethod = { fg = palette.accent3 },
     TSField = { fg = palette.accent7 },
     TSProperty = { fg = palette.accent7 },
-    TSConstructor = { fg = palette.accent7 },
+    TSConstructor = { fg = palette.accent3 },
 
     TSConditional = { fg = palette.accent1 },
     TSRepeat = { fg = palette.accent1 },
