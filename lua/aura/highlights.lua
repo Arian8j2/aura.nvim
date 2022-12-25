@@ -152,6 +152,10 @@ function M.groups(palette)
     TSTagAttribute = { fg = palette.accent6 },
     TSTagDelimiter = { fg = palette.accent7 },
 
+    -- lukas-reineke/indent-blankline.nvim
+    IndentBlanklineSpaceChar = { fg = palette.accent7 },
+    IndentBlanklineSpaceCharBlankline = { fg = palette.accent7 },
+
     -- lewis6991/gitsigns.nvim
     GitSignsAdd = { fg = palette.accent4 },
     GitSignsChange = { fg = palette.accent3 },

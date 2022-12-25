@@ -3,6 +3,7 @@
 - some small changes to **nvim-treesitter** highlight colors
 - better terminal colors that are more closer to original *aura* color scheme
 - add option to disable overriding terminal colors
+- support **indent-blankline** plugin
 
 <h1 align="center" >aura.nvim</h1>
 
