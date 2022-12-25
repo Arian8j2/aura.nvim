@@ -8,21 +8,21 @@ local M = {}
 -- @param palette (table) one of field of class Palettes
 function M.terminal(palette)
   g.terminal_color_0 = palette.accent12
-  g.terminal_color_1 = palette.accent1
-  g.terminal_color_2 = palette.accent13
-  g.terminal_color_3 = palette.accent1
-  g.terminal_color_4 = palette.accent2
+  g.terminal_color_1 = palette.accent5
+  g.terminal_color_2 = palette.accent4
+  g.terminal_color_3 = palette.accent3
+  g.terminal_color_4 = palette.accent32
   g.terminal_color_5 = palette.accent1
   g.terminal_color_6 = palette.accent2
-  g.terminal_color_7 = palette.accent3
-  g.terminal_color_8 = palette.accent7
-  g.terminal_color_9 = palette.accent3
-  g.terminal_color_10 = palette.accent1
-  g.terminal_color_11 = palette.accent2
-  g.terminal_color_12 = palette.accent2
-  g.terminal_color_13 = palette.accent5
-  g.terminal_color_14 = palette.accent9
-  g.terminal_color_15 = palette.accent3
+  g.terminal_color_7 = palette.accent7
+  g.terminal_color_8 = palette.accent8
+  g.terminal_color_9 = palette.accent5
+  g.terminal_color_10 = palette.accent4
+  g.terminal_color_11 = palette.accent3
+  g.terminal_color_12 = palette.accent32
+  g.terminal_color_13 = palette.accent1
+  g.terminal_color_14 = palette.accent2
+  g.terminal_color_15 = palette.accent7
 end
 
 -- Setup groups colorscheme
