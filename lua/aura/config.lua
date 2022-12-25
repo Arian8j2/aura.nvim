@@ -2,8 +2,10 @@ local utils = require('aura.utils')
 
 -- @classmod Config
 -- @field style (string) default style is dark, can set as dark, dark(soft text), dark soft, dark soft(soft text)
+-- @field style (boolean) default is true that will override terminal colors with aura colorscheme
 local M = {
   style = 'dark',
+  override_terminal_colors = true
 }
 
 -- Transform config.style to palette, default palette is dark

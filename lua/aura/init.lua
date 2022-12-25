@@ -35,7 +35,8 @@ function M.colorscheme()
   -- setup colorscheme
   M.current_palette = M.config.style_to_palette()
   local palette = palettes[M.current_palette]
-  highlights.setup(palette)
+  local override_terminal_colors = M.config.override_terminal_colors
+  highlights.setup(palette, override_terminal_colors)
 end
 
 -- Toggle between styles

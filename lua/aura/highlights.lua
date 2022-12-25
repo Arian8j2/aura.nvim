@@ -364,9 +364,11 @@ M.fallbacks = {
   ['TSVariableBuiltin'] = 'variable.builtin'
 }
 
-function M.setup(palette)
+function M.setup(palette, override_terminal_colors)
   -- setup terminal
-  M.terminal(palette)
+  if override_terminal_colors == true then
+    M.terminal(palette)
+  end
 
   -- setup groups
   local groups = M.groups(palette)
