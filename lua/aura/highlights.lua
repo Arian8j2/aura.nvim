@@ -92,7 +92,7 @@ function M.groups(palette)
     WarningMsg = { fg = palette.accent3 },
     WildMenu = { fg = palette.accent0, bg = palette.accent7 },
 
-    EndOfBuffer = { fg = palette.accent0 },
+    EndOfBuffer = { fg = palette.accent12 },
 
     -- nvim-treesitter/nvim-treesitter
     TSError = { fg = palette.accent5, },
