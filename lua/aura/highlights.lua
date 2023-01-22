@@ -31,7 +31,7 @@ function M.groups(palette)
   return {
     -- sytax
     Normal = { fg = palette.accent7, bg = palette.accent12 },
-    NormalFloat = { fg = palette.accent7, bg = palette.accent12 },
+    NormalFloat = { fg = palette.accent7, bg = palette.accent0 },
     Comment = { fg = palette.accent8 },
     Constant = { fg = palette.accent2 },
     Identifier = { fg = palette.accent3 },
@@ -76,6 +76,7 @@ function M.groups(palette)
     PmenuSel = { fg = palette.accent7, bg = palette.accent35 },
     PmenuSbar = { bg = palette.accent0 },
     PmenuThumb = { bg = palette.accent35 },
+    FloatBorder = { link = 'NormalFloat' },
 
     SpellBad = { fg = palette.accent5, underline = true },
     SpellCap = { fg = palette.accent3 },
