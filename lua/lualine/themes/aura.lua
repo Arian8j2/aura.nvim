@@ -11,7 +11,7 @@ return {
   },
   normal = {
     a = { fg = palette.accent12, bg = palette.accent1, gui = 'bold' },
-    b = { fg = palette.accent7, bg = palette.accent12 },
+    b = { fg = palette.accent7, bg = palette.accent0 },
     c = { fg = palette.accent8, bg = palette.accent12 },
   },
   visual = {
