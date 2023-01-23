@@ -66,7 +66,7 @@ function M.groups(palette)
     DiffText = { fg = palette.accent8 },
 
     ErrorMsg = { fg = palette.accent5 },
-    VertSplit = { fg = palette.accent0, },
+    VertSplit = { fg = palette.accent33 },
     Folded = { fg = palette.accent8 },
     Search = { fg = palette.accent0, bg = palette.accent3 },
     IncSearch = { fg = palette.accent3, bg = palette.accent8 },
@@ -76,7 +76,7 @@ function M.groups(palette)
     PmenuSel = { fg = palette.accent7, bg = palette.accent35 },
     PmenuSbar = { bg = palette.accent0 },
     PmenuThumb = { bg = palette.accent35 },
-    FloatBorder = { link = 'NormalFloat' },
+    FloatBorder = { fg = palette.accent8, bg = palette.accent0 },
 
     SpellBad = { fg = palette.accent5, underline = true },
     SpellCap = { fg = palette.accent3 },
@@ -229,7 +229,7 @@ function M.groups(palette)
 
 
     -- lukas-reineke/indent-blankline.nvim
-    IndentBlanklineChar = { fg = palette.accent8, nocombine = true },
+    IndentBlanklineChar = { fg = palette.accent13, nocombine = true },
     IndentBlanklineContextChar = { fg = palette.accent7, nocombine = true },
 
     -- hrsh7th/nvim-cmp
