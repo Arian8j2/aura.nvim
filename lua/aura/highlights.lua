@@ -380,7 +380,7 @@ function M.setup(palette, override_terminal_colors)
   for key, setting in pairs(groups) do
     local fallback = M.fallbacks[key]
     if fallback ~= nil then
-      key = '@' .. fallback
+      nvim_set_hl(0, '@' .. fallback, setting)
     end
 
     nvim_set_hl(0, key, setting)
