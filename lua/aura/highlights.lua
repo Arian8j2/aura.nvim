@@ -43,6 +43,7 @@ function M.groups(palette)
     Underlined = { fg = palette.accent2, underline = true },
     Error = { fg = palette.accent5 },
     Todo = { fg = palette.accent6, bold = true, italic = true },
+    NonText = { fg = palette.accent8 },
 
     Cursor = { reverse = true },
     CursorLineNr = { fg = palette.accent7, bg = palette.accent12, bold = true },
@@ -233,8 +234,8 @@ function M.groups(palette)
     IndentBlanklineContextChar = { fg = palette.accent7, nocombine = true },
 
     -- hrsh7th/nvim-cmp
+    CmpItemMenu = { link = 'Comment' },
     CmpItemKind = { link = 'Pmenu' },
-    CmpItemAbbr = { link = 'Pmenu' },
     CmpItemKindMethod = { link = 'TSMethod' },
     CmpItemKindText = { link = 'TSText' },
     CmpItemKindFunction = { link = 'TSFunction' },
