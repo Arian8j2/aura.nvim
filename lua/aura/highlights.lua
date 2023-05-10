@@ -292,6 +292,23 @@ function M.groups(palette)
     NavicIconsTypeParameter = { link = 'CmpItemKindTypeParameter' },
     NavicText = { fg = palette.accent8 },
     NavicSeparator = { fg = palette.accent8 },
+
+    -- lsp semantic token groups
+    ["@lsp.type.comment"] = { link = "@comment" },
+    ["@lsp.type.enum"] = { link = "@type" },
+    ["@lsp.type.enumMember"] = {},
+    ["@lsp.type.interface"] = { link = "@type" },
+    ["@lsp.type.keyword"] = { link = "@keyword" },
+    ["@lsp.type.namespace"] = { link = "@namespace" },
+    ["@lsp.type.parameter"] = { link = "@parameter" },
+    ["@lsp.type.property"] = { link = "@property" },
+    ["@lsp.type.variable"] = {},
+    ["@lsp.typemod.method.defaultLibrary"] = { link = "@function.builtin" },
+    ["@lsp.typemod.function.defaultLibrary"] = { link = "@function.builtin" },
+    ["@lsp.typemod.operator.injected"] = { link = "@operator" },
+    ["@lsp.typemod.string.injected"] = { link = "@string" },
+    ["@lsp.typemod.variable.defaultLibrary"] = { link = "@variable.builtin" },
+    ["@lsp.typemod.variable.injected"] = { link = "@variable" },
   }
 end
 
